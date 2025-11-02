@@ -5,8 +5,7 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "npm run build",
-        "outputDirectory": "dist"
+        "distDir": "dist"
       }
     }
   ],
@@ -15,6 +14,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "framework": "vite"
+  ]
 }
