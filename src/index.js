@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './app.jsx'; // Sesuaikan dengan nama file kamu
+import App from './App.jsx'; // Sesuaikan dengan nama file kamu
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
