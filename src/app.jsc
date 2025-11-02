@@ -27,8 +27,8 @@ export default function AIChatApp() {
   const fileInputRef = useRef(null);
 
   // API Keys
-  const OPENROUTER_API_KEY = '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';
-  const GEMINI_API_KEY = 'AIzaSyAn2cP5u6kCDBzDyqEjRSM5SdSpVeM8oqg';
+  const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
   const currentMessages = chats[currentChatId]?.messages || [];
 
